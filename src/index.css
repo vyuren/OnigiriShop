@@ -1,0 +1,15 @@
+
+body {
+
+  background-color: #343a40;
+  max-height: fit-content;
+  display:flex;
+  margin: 0;
+  padding:0;
+}
+
+html {
+
+
+  scroll-behavior: smooth;
+}

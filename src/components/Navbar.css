@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+
+    --gunmetal: #474448;
+    --shadowGrey: #2d232e;
+    --bone: #e0ddcf;
+    --taupeGrey: #534b52;
+    --parchment: #f1f0ea;
+
+    --charcoalBlue: #2F4550;
+    --blueSlate: #586F7C;
+    --lightBlue: #B8DBD9;
+
+}
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    justify-content: center;
+}
+
+.navbar_ {
+
+    width: 100%;
+    height: 7.5em;
+
+    background-color: var(--shadowGrey);
+    overflow: hidden;
+
+    box-shadow: var(--parchment) 0 0 5em;
+
+    transition: box-shadow 2s ease;
+    
+    z-index: 100;
+
+    border-bottom:#e0ddcf solid 0.25rem;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 2em;
+}
+
+.navbar_ .apps {
+
+    list-style: none;
+
+    display:flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.apps a {
+
+    text-decoration: none;
+
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+
+    color:var(--parchment);
+    transition: box-shadow 200ms ease-in-out;
+}
+
+.apps a:hover {
+
+    transition: ease 200ms;
+    color: var(--taupeGrey);
+    text-shadow: var(--bone) 0 0 2em;
+}
+
+.logo {
+
+    position: relative;
+    justify-self: left;
+    align-items: center;
+    gap:2em;
+}
+
+.logo img {
+
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+
+    --gunmetal: #474448;
+    --shadowGrey: #2d232e;
+    --bone: #e0ddcf;
+    --taupeGrey: #534b52;
+    --parchment: #f1f0ea;
+
+    --charcoalBlue: #2F4550;
+    --blueSlate: #586F7C;
+    --lightBlue: #B8DBD9;
+
+}
+
+.credits_ {
+
+    width: 100%;
+    height: 25vh;
+    
+
+    background: var(--shadowGrey);
+
+    text-align: center;
+
+    box-shadow: var(--shadowGrey) 0 0 5em;
+}
+
+.credits_ p {
+
+    padding: 1.5em;
+    color: var(--bone);
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+
+}
